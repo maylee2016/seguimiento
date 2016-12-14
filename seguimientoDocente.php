@@ -1,5 +1,6 @@
 <?php session_start();
 
+<<<<<<< HEAD
 if (isset($_SESSION['usuario'])) {
     require_once("db/db.php");
 //Llamada al modelo
@@ -15,3 +16,10 @@ if (isset($_SESSION['usuario'])) {
 } else {
     header('Location: login.php');
 } ?>
+=======
+if (isset($_SESSION['usuario'])){
+    require 'views/seguimiento.view.php';
+} else {
+    header('Location: login.php');
+}
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb

@@ -25,15 +25,30 @@
     <link rel="stylesheet" type="text/css" href="estilos/css/editarPerfil.css">
     <link rel="stylesheet" type="text/css" href="estilos/css/seguimiento.css">
     <link rel="stylesheet" type="text/css" href="estilos/css/nombramiento.css">
+<<<<<<< HEAD
     <!--FIN HOJAS DE ESTILO-->
 
     <!---->
+=======
+    <link rel="stylesheet" type="text/css" href="estilos/css/registroMaterias.css">
+    <!--FIN HOJAS DE ESTILO-->
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
 
+    <!--INICIO JAVA SCRIPT-->
     <link rel="stylesheet" href="estilos/css/jquery-ui.css">    
     <script src="estilos/js/jquery.min.js"></script>
     <script src="estilos/js/jquery-ui.min.js"></script>
     <script src="estilos/js/moment.js"></script>
+<<<<<<< HEAD
     <script src="estilos/js/timer.js"></script>
+=======
+    
+    <script src="estilos/js/timer.js"></script>
+    <script src="estilos/js/buscaMaterias.js"></script>
+    <script src="estilos/js/buscarDocente.js"></script>
+    <script src="estilos/js/buscarDocente/obtener.js"></script>
+    <!--FIN JAVA SCRIPT-->
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
 
 
     <script>

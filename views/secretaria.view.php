@@ -1,4 +1,5 @@
 <?php include("views/global/header.view.php")?>
+<<<<<<< HEAD
     <div class="nt-background" name="seguimiento">
     <div class= "nt-header">
         <div class= "logo">
@@ -31,6 +32,15 @@
             <div class="row navbar">
 
 
+=======
+<?php include("views/global/title.view.php")?>
+
+    <div class="contenedor-principal">
+        <div class="container nt-menu-cuerpo">
+            <div class="row navbar">
+
+
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
                 <div class="col-sm-2 dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown"><img class="img-circle img-responsive" src="images/nombramiento.png" id="dropdownMenu1">Nombramiento</a>
 
@@ -77,6 +87,7 @@
                     <a href="" class="dropdown-toggle" data-toggle="dropdown"><img class="img-circle img-responsive" src="images/historicos.png"  id="dropdownMenu1">Históricos</a>
 
                     <span class="caret"></span>
+<<<<<<< HEAD
 
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="">Docente</a></li>
@@ -101,6 +112,31 @@
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="materias.php">Registro materias</a></li>
 
+=======
+                    <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Docente</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Auxliar</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-sm-2 dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"><img class="img-circle img-responsive" src="images/registros.png">Registros</a>
+
+                    <span class="caret"></span>
+                    <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroDocente.php">Registro Docente</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroAuxiliar.php">Registro Auxiliar</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="cargos.php">Registro Roles</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroMaterias.php">Registro Materias</a></li>
+
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroSecretaria.php">Registro secretaria</a></li>
 
                     </ul>
@@ -114,7 +150,11 @@
                 <ul>
 
                     <li>
+<<<<<<< HEAD
                         <a href="">
+=======
+                        <a href="#" onclick="window.open('manualPDF.pdf')">
+>>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
                             <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
                             ManualPDF
                         </a>
