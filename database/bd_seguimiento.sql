@@ -4,41 +4,7 @@
 /*==============================================================*/
 
 
-drop table if exists AUXILIAR;
 
-drop table if exists CARGO;
-
-drop table if exists CARGO_DOC;
-
-drop table if exists CARRERA;
-
-drop table if exists DOCENTE;
-
-drop table if exists DOC_AUX;
-
-drop table if exists HORARIO_DOC;
-
-drop table if exists MATERIA;
-
-drop table if exists MATERIA_DICTA;
-
-drop table if exists NOMBRAMIENTO_AUX;
-
-drop table if exists NOMBRAMIENTO_DOC;
-
-drop table if exists PLAN;
-
-drop table if exists ROL;
-
-drop table if exists SEGUIMIENTO_AUX;
-
-drop table if exists SEGUIMIENTO_DOC;
-
-drop table if exists SEGUIMIENTO_EXCLU_DOC;
-
-drop table if exists TIENE;
-
-drop table if exists USUARIO;
 
 /*==============================================================*/
 /* Table: AUXILIAR                                              */

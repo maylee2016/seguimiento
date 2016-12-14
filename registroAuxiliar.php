@@ -32,14 +32,20 @@ session_start();
             echo $errores;
         } else {
             try {
-                $conexion = new PDO('mysql:host=localhost;dbname=seg','root','');
+                $conexion = new PDO('mysql:host=localhost;dbname=bd_seguimiento','root','');
             }catch(PDOExeption $e){
                 echo "Error: " . $e->getMessage();
             }
         }
 
         if ($errores == ''){
-            $statement = $conexion->prepare('INSERT INTO auxiliar (ID_AUX,CI_AUX,NOMBRE_AUX,APELLPA_AUX,APELLMA_AUX,FECHA_NACIMIENTO_AUX,TELEFONO_AUX,CELULAR_AUX,EXTENSION_CI_AUX,CORREO_AUX,GENERO_AUX,DIRECCION_AUX,CARRERA_AUX) VALUES (null, :ci, :nombres, :apellPa, :apellMat, :fechaNacimineto, :telefono, :celular, :extensionCi, :correo, :genero, :direccion, :carrera)');
+            $statement = $conexion->prepare('INSERT INTO auxiliar (ID_AUX,CI_AUX,NOMBRE_AUX,APELLPA_AUX,APELLMA_AUX,
+                                                                    FECHA_NACIMIENTO_AUX,TELEFONO_AUX,CELULAR_AUX,
+                                                                    EXTENSION_CI_AUX,CORREO_AUX,GENERO_AUX,DIRECCION_AUX,
+                                                                    CARRERA_AUX) 
+                                              VALUES (null, :ci, :nombres, :apellPa, :apellMat, :fechaNacimineto, 
+                                                            :telefono, :celular, :extensionCi, :correo, :genero, 
+                                                            :direccion, :carrera)');
 
             $statement->execute(array(
                 ':ci'=>$ci,
