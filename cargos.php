@@ -1,8 +1,6 @@
 <?php session_start();
-<<<<<<< HEAD
-=======
     require 'views/cargos.view.php';
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
     require 'funciones.php';
     if ($_SESSION['usuario']){
         //print_r($_SESSION['privilegio']);
@@ -34,11 +32,8 @@
         $statement->execute();
         $roles = $statement->fetchAll();
 
-<<<<<<< HEAD
-
         require 'views/cargos.view.php';
-=======
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
     } else {
         header('Location: index.php');
     }

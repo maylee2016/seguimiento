@@ -1,11 +1,10 @@
 <?php include("views/global/header.view.php")?>
 <?php include('views/global/title.view.php')?>
 
-<<<<<<< HEAD
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-=======
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<div class="container seguimiento">
@@ -18,11 +17,11 @@
 					<label class="lab control-label" > Nombre del Docente</label>
 				</div>
 				<div class="col-md-3 form-group">
-<<<<<<< HEAD
+
 					<input type="text" class="input-global form-group form-control" name="nom">
-=======
+
 					<input type="text" disabled='disabled' class="input-global form-group form-control" name="nom" >
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 				</div>
                     
                     
@@ -44,7 +43,7 @@
                                 </div>
 
                                 <div class="modal-body">
-<<<<<<< HEAD
+
                                     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" name="search" id="search">
                                         <div class="form-group col-sm-6">
                                             <label>(*) Criterio:</label>
@@ -65,7 +64,7 @@
                                                     <th>Nombre</th>
                                                     <th>Apellido Paterno</th>
                                                     <th>Apellido Materno</th>
-=======
+
                                     <form>
                                         <div class="form-group col-sm-12">
                                             <label>(*) Criterio:</label>
@@ -79,30 +78,30 @@
                                                     <th>NOMBRE</th>
                                                     <th>APELLIDO PATERNO</th>
                                                     <th>APELLIDO MATERNO</th>
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <?php foreach ($docentes as $docente):?>
                                                     <tr>
-<<<<<<< HEAD
+
                                                         <th><?php echo $docente['NOMBRE_DOC'] ?></th>
                                                         <td><?php echo $docente['APELLPA_DOC'] ?></td>
                                                         <td><?php echo $docente['APELLMA_DOC'] ?></td>
-=======
+
                                                         <td id="ide"><?php echo $docente['ID_DOC'] ?></td>
                                                         <td><?php echo $docente['NOMBRE_DOC'] ?></td>
                                                         <td><?php echo $docente['APELLPA_DOC'] ?></td>
                                                         <td><?php echo $docente['APELLMA_DOC'] ?></td>
                                                         <td><a class="btn btn-primary btn-xs" id="boton">seleccionar</a></td>
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
                                                     </tr>
                                                 <?php endforeach;?>
                                                 </tbody>
                                             </table>
                                         </div>
                                     </form>
-<<<<<<< HEAD
+
                                     <p><b>Los campos con (*) deben ser llenados obligatoriamente.</b></p>
                                 </div>
 
@@ -110,11 +109,11 @@
                                     <button type="submit" class="btn btn-default btn-global">Guardar</button>
                                     <button type="button" class="btn btn-default btn-global" data-dismiss="modal">Close</button>
                                 </div>
-=======
+
                                     <div id='response'></div>
                                     <p><b>Los campos con (*) deben ser llenados obligatoriamente.</b></p>
                                 </div>
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
                             </div>
                         </div>
                     </div>
@@ -143,11 +142,11 @@
 					<label class=" control-label" > Materia</label>
 				</div>
 				<div class="col-md-3 form-group">
-<<<<<<< HEAD
+
 					<input type="text" class="input-global form-group form-control" name="nom">
-=======
+
 					<input type="text" class="input-global form-group form-control" name="campoBuscador" id="searchTerm" onkeyup="doSearch()">
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 				</div>
 				<div class="col-md-1 form-group">
 					<br>
@@ -164,25 +163,24 @@
 				</div>
 				
 			</div>
-<<<<<<< HEAD
+
 			</fieldset>
-=======
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 		</form>
 		<form class="form-inline">
 			<div class=" col-md-12">
 				<div class="form-group  tabla-cont table-hover col-md-4">
-<<<<<<< HEAD
+
 				<table class="table table-hover ta-mat">
 				    <tbody>
-=======
+
 				<table id="datos" class="table table-hover ta-mat">
                         
                     	<tr>
 				        	<th>id</th><th>Materia</th>
 			         	</tr>
                         
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
                         <?php foreach ($materias as $materia):?>
 
                             <tr>
@@ -191,11 +189,10 @@
                             </tr>
                         <?php endforeach;?>
 
-<<<<<<< HEAD
+
 				    </tbody>
-=======
-                    
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
+
 				</table>
 			 	</div>
 
@@ -480,11 +477,6 @@
 		</form>
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
 		<form class=" form-group form-inline">
 
 			<div class=" form-group col-md-12">
@@ -614,7 +606,6 @@
 					<div class="col-md-4">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
 					</div>
-<<<<<<< HEAD
 
 					<div class="col-md-8">
 						<label class="" for="hr">Hrs. Practica:</label>
@@ -643,7 +634,7 @@
 					<div class="col-md-4">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
 					</div>
-=======
+
 
 					<div class="col-md-8">
 						<label class="" for="hr">Hrs. Practica:</label>
@@ -672,7 +663,7 @@
 					<div class="col-md-4">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
 					</div>
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 
 				</div>
 
@@ -694,8 +685,7 @@
 
 					<div class="col-md-7">
 						<label class="" for="hr">Hrs. Producc. Acad.:</label>
-<<<<<<< HEAD
-=======
+
 					</div>
 					<div class="col-md-3">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
@@ -703,12 +693,12 @@
 
 					<div class="col-md-7">
 						<label class="" for="hr">Hrs. Adminis. Acad.:</label>
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 					</div>
 					<div class="col-md-3">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
 					</div>
-<<<<<<< HEAD
+
 
 					<div class="col-md-7">
 						<label class="" for="hr">Hrs. Adminis. Acad.:</label>
@@ -716,8 +706,7 @@
 					<div class="col-md-3">
 						<input class="form-hh input-global" id="hr" type="text" name="hr">
 					</div>
-=======
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 					<div class="col-md-7">
 						<label class="" for="hr">.</label>
 					</div>
@@ -768,32 +757,27 @@
 
 		<form class="form-group form-inline">
 			<div class="col-md-12">
-<<<<<<< HEAD
+
 				<div class="col-md-8">
-					
-=======
+
 
                 <div class="col-md-8">
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
+
 				</div>
 				<div class="col-md-2">
 				<button type="submit" class="btn btn-info btn-global btn-bs" >Guardar</button>
 				</div>
 				<div class="col-md-2">
 				<button class="btn btn-info btn-global btn-bs" href="espacioSecretaria.php"> Salir </button>
-<<<<<<< HEAD
+
 				<div>
 			</div>
 		</form>
 
 	</div>
-=======
+
                 </div>
 			</div>
 		</form>
 
 	</div>
-
-
-
->>>>>>> 92de8016442de1d754cf6fb690403f09f5cccddb
